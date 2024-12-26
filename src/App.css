@@ -1,2 +1,9 @@
-main {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .completedTodo{
+    @apply bg-green-400 line-through;
+  }
 }
